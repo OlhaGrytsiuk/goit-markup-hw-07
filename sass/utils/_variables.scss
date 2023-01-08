@@ -1,0 +1,81 @@
+:root {
+    --main-light-color: #ffffff;
+    --main-font-color: #757575;
+    --second-font-color: #212121;
+    --accent-color: #2196f3;
+    --second-accent-color: #188ce8;
+    --logo-color: #000000;
+    --border-bgr-color: #2f303a;
+    --team-bgr-color: #f5f4fa;
+    --footer-contacs-color: rgba(255, 255, 255, 0.6);
+    --border-header-color: #ececec;
+    --hero-background-color: #c4c4c4;
+    --work-label-background: rgba(47, 48, 58, 0.8);
+  }
+  
+  body {
+    background-color: var(--main-light-color);
+    color: var(--main-font-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p,
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  img,
+  label,
+  input,
+  textarea {
+    display: block;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .title {
+    margin-bottom: 50px;
+    color: var(--second-font-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+
+  
+.visually-hidden {
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
