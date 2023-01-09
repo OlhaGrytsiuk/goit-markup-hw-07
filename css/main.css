@@ -168,10 +168,11 @@ textarea {
   background-color: #188ce8;
   opacity: 0;
 }
-.menu-nav__link.currrent {
+
+.menu-nav__link--currrent {
   color: var(--accent-color);
 }
-.menu-nav__link.currrent::after {
+.menu-nav__link--currrent::after {
   opacity: 1;
 }
 

@@ -53,14 +53,13 @@
       background-color: #188ce8;
       opacity: 0;
     }
+  }
 
-    &.currrent {
-      color: var(--accent-color);
-    }
-
-    &.currrent::after {
-      opacity: 1;
-    }
+  .menu-nav__link--currrent {
+    color: var(--accent-color);
+   &::after {
+    opacity: 1;
+  }
   }
 
 .contacts {
