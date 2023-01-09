@@ -21,10 +21,6 @@ body {
   line-height: 1.71;
 }
 
-.list {
-  list-style: none;
-}
-
 h1,
 h2,
 h3,
@@ -43,6 +39,10 @@ textarea {
 
 textarea {
   resize: none;
+}
+
+.list {
+  list-style: none;
 }
 
 .container {
