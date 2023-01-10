@@ -1,4 +1,17 @@
+.feature-section {
+  @extend %section;
+}
+
+.feature-section__container {
+  @extend %container;
+}
+
+.feature-section__title {
+  @extend %visually-hidden;
+}
+
 .feature {
+  @extend %list;
   display: flex;
 }
 
@@ -11,10 +24,8 @@
 }
 
 .feature__icon {
+  @include centeredFlex();
   background-color: var(--team-bgr-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;

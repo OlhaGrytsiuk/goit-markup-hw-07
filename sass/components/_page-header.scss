@@ -3,18 +3,16 @@
 }
 
 .main-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include space-betweenFlex();
+  @extend %container;
 }
 
 .nav-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include space-betweenFlex();
 }
 
 .menu-nav {
+  @extend %list;
   display: flex;
   margin-left: 93px;
 }
@@ -64,6 +62,7 @@
 }
 
 .contacts {
+  @extend %list;
   display: flex;
   margin-left: auto;
 }
@@ -73,17 +72,15 @@
 }
 
 .contacts__link {
+  @include centeredFlex();
   color: var(--main-font-color);
   fill: var(--main-font-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  display: flex;
-  align-items: center;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

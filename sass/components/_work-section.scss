@@ -1,8 +1,18 @@
 .work-section {
+  @extend %section;
   padding-top: 0;
 }
 
+.work-section__container {
+  @extend %container;
+}
+
+.work-section__title {
+  @extend %title;
+}
+
 .work {
+  @extend %list;
   display: flex;
 }
 

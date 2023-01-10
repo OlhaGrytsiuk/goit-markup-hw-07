@@ -1,4 +1,17 @@
+.project-section {
+  @extend %section;
+}
+
+.project-section__container {
+  @extend %container;
+}
+
+.project-section__title {
+  @extend %visually-hidden;
+}
+
 .filters {
+  @extend %list;
   width: 569px;
   display: flex;
   margin-left: auto;
