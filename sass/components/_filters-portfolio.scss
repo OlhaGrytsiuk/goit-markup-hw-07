@@ -7,7 +7,7 @@
 }
 
 .project-section__title {
-  @extend %visually-hidden;
+  @include visually-hidden;
 }
 
 .filters {

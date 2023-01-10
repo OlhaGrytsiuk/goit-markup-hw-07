@@ -7,7 +7,7 @@
 }
 
 .feature-section__title {
-  @extend %visually-hidden;
+  @include visually-hidden;
 }
 
 .feature {
